@@ -1,0 +1,33 @@
+table{
+  border-collapse: collapse;
+}
+
+table tr th{
+  background-color: rgb(138, 207, 133);
+}
+
+
+table tr th,
+table tr td{
+  padding: 2px 5px;
+  box-sizing: border-box;
+  border: 2px solid #000;
+  text-align: center;
+}
+
+.green{
+  background-color: rgb(117, 205, 142);
+}
+
+.orange{
+  background-color: rgb(255, 221, 149)
+}
+
+ol{
+  padding: 5px 10px 15px 15px;
+  margin: 0px;
+}
+
+ol[type='i']{
+  padding: 5px 10px 5px 25px;
+}

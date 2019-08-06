@@ -1,0 +1,291 @@
+header{
+  padding: 10px;
+  box-sizing: border-box;
+  width: 100%;
+  background-color: rgb(9, 27, 80);
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: calibri;
+}
+
+#container{
+  padding:10px;
+  box-sizing: border-box;
+  width: 90%;
+  margin:auto;
+}
+
+#menu-bar{
+  position: relative;
+  margin:auto;
+  display: flex;
+}
+
+#menu-bar button{
+  border-radius:0px;
+  background-color: rgb(193, 217, 219);
+  font-weight: bold;
+}
+
+#menu-bar button:hover{
+  background-color: #fff;
+}
+
+#menu-bar button.active{
+  background-color: rgb(91, 173, 179);
+  color: #fff;
+  cursor: default !important;
+}
+
+.wrapper{
+  padding:10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  border: 5px solid rgb(91, 173, 179);
+}
+
+.wrapper #panel-upload,
+.wrapper #panel-hasil{
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.wrapper #panel-upload{
+  background-color: rgb(214, 228, 237);
+}
+
+.wrapper #panel-hasil{
+  background-color: rgb(123, 165, 192);
+}
+
+#img-upload,#testing-upload{
+  width: 100%;
+  height:400px;
+  min-width: 500px;
+  background-color: #fff;
+}
+
+#coordmap,#coordmap-testing{
+  width: 100%;
+  height:100%;
+  top:0px;
+  position: absolute;
+}
+
+.node{
+  fill: #fff;
+  stroke: #000;
+  stroke-width: 1;
+  opacity:0.6;
+  cursor: pointer;
+  box-sizing: border-box;
+  position: absolute;
+}
+
+.rect{
+  fill: rgba(122,122,122,0.6);
+  position: absolute;
+  cursor: move;
+}
+
+#panel-tbl-crop,#testing-tbl-crop{
+  position: absolute;
+  z-index:2;
+  display: none;
+}
+
+#panel-proses{
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  box-sizing: border-box;
+  margin-top:5px;
+}
+
+#panel-proses input[type="checkbox"]{
+  height:auto;
+  width: auto;
+}
+
+.panel-judul{
+  width: 100%;
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: #091b50;
+  color: #fff;
+  font-weight: bold;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.panel-judul div,
+.panel-judul i{
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.panel-judul i{
+  margin-right: 10px;
+}
+
+.panel-huruf{
+ padding: 10px;
+ box-sizing: border-box;
+ position: relative;
+ background-color: #fff;
+ margin-right: 5px;
+ margin-bottom: 5px;
+}
+
+.panel-huruf button{
+  border-radius:0px;
+  background-color:rgba(0,0,0,0);
+  padding:0px;
+  top:-2px;
+  right:1px;
+  position:absolute;
+}
+
+.panel-huruf input{
+  display:block;
+  height:20;
+  border-radius:0px;
+  font-size: 18px;
+  text-align: center;
+}
+
+div.halaman{
+  margin: auto;
+  width: 100%;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+div.halaman ul.pagination{
+  list-style-type: none;
+  padding: 0px 0px;
+  margin: 0;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  display: inline-block;
+}
+
+div.halaman .pagination li{
+  display: inline;
+  background: #fff;
+  text-align: center;
+}
+
+div.halaman .pagination li:first-child span,
+div.halaman .pagination li:first-child a{
+     border-left: none;
+}
+
+div.halaman .pagination li a,
+div.halaman .pagination li span{
+     display: block;
+     float: left;
+     padding: 10px;
+     border-left: 1px solid #ddd;
+     text-decoration: none;
+     color: #000;
+}
+
+div.halaman .pagination li a:hover,
+div.halaman .pagination li span:hover{
+     background-color: rgb(232, 231, 252);
+     cursor: pointer;
+}
+
+div.halaman .pagination li.disabled span:hover{
+     cursor: not-allowed !important;
+     background: #fff;
+}
+
+div.halaman .pagination li.disabled span{
+     color: #c3c3c3;
+}
+
+div.halaman .pagination li.active a,
+div.halaman .pagination li.active span{
+     background-color: rgb(33, 25, 142) !important;
+     color: white;
+}
+
+div.halaman .pagination li.right,
+div.halaman .pagination li.left{
+  position: absolute;
+  z-index:2;
+}
+
+div.halaman .pagination li.right{
+  right:10px;
+}
+
+div.halaman .pagination li.left{
+  left:10px;
+}
+
+.tbl{
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.tbl caption{
+  padding: 5px 10px;
+  width: 100%;
+  box-sizing: border-box;
+  font-weight: bold;
+  font-size: 16px;
+  background-color: rgb(194, 219, 229);
+  text-align: left;
+}
+
+.tbl tr th,
+.tbl tr td{
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.tbl tr th{
+  background-color: rgb(78, 107, 140);
+  color: #fff;
+  text-align: left;
+}
+
+#info-training{
+  padding: 10px;
+  box-sizing: border-box;
+  background-color: rgb(214, 228, 237);
+}
+
+.info-data-notfound{
+  padding:10px;
+  box-sizing:border-box;
+  text-align:center;
+  font-weight:bold;
+  font-size:16px;
+  background-color:rgb(214, 228, 237);
+}
+
+.tbl-info{
+  width:auto;
+}
+
+.tbl-info caption,
+.tbl-info tr th{
+  text-align: left;
+}
+
+.tbl-info tr th, .tbl-info tr td
+.tbl-info caption{
+  padding: 5px;
+  box-sizing: border-box;
+}
+
+.tbl-info caption{
+  font-weight: bold;
+  font-size: 17px;
+  text-decoration: underline;
+}

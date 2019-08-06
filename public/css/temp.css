@@ -1,0 +1,64 @@
+*{
+  font-size: 18px !important;
+}
+
+table{
+  border-collapse:collapse;
+  padding:8px;
+  box-sizing:border-box;
+  margin-top:10px;
+  margin-bottom:10px;
+  /* background-color:rgb(229, 241, 255); */
+}
+
+.left{
+  text-align: left !important;
+}
+
+.abs{
+  position: absolute;;
+  top:-7px;
+  right:12px;
+  font-weight: bold;
+}
+
+.abs,.abs sub{
+  font-size: 9px !important;
+}
+
+table caption{
+  font-weight: bold;
+}
+
+table tr th{
+  text-align: center;
+  background-color: rgb(117, 205, 142)
+}
+
+table tr th,
+table tr td{
+  padding:7px;
+  box-sizing:border-box;
+  border:2px solid #000;
+  text-align: center;
+}
+
+#grayscale tr td{
+  font-size: 14px;
+}
+
+.yellow{
+  background-color: rgb(232, 255, 80) !important;
+}
+
+.orange{
+  background-color: rgb(251, 211, 153);
+}
+
+.coding{
+  font-style: italic;
+}
+
+#perhitungan{
+  font-size: 18px;
+}

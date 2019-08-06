@@ -1,0 +1,61 @@
+.konv-div{
+  display:inline-block;
+  margin-right:15px;
+  border:2px solid #000;
+  padding:10px;
+  box-sizing:border-box;
+}
+
+.konv-div table tr td{
+  text-align:center;
+  padding:5px;
+  box-sizing:border-box;
+}
+
+#tbl-matriks tr .one{
+  background-color:rgb(109, 153, 63);
+  text-align:center;
+}
+
+#tbl-matriks tr .minus-one{
+  padding:5px;
+  text-align:center;
+  box-sizing:border-box;
+}
+
+.div-tbl-fitur{
+  width:100%;
+  overflow:auto;
+}
+
+.div-tbl-fitur table{
+  border-collapse:collapse;
+  padding:5px;
+  box-sizing:border-box;
+  background-color:rgb(229, 241, 255);
+}
+
+.green{
+  background-color: rgb(164, 236, 147);
+}
+
+
+.div-tbl-fitur table tr td{
+  padding:5px;
+  box-sizing:border-box;
+  border:2px solid #000;
+}
+
+.pooling-tbl{
+  background-color:rgb(193, 241, 192);
+  border-collapse:collapse;
+  padding:5px;
+  box-sizing:border-box;
+}
+
+.pooling-tbl tr td{
+  padding:5px;
+  text-align:center;
+  box-sizing:border-box;
+  border:2px solid #000;
+}
